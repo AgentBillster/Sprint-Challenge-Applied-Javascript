@@ -12,7 +12,7 @@
 function Header() {
     let headerDiv = document.createElement('div')
     let span = document.createElement('span')
-    let header = document.createElement('h3')
+    let header = document.createElement('h1')
     let spanTemp = document.createElement('span')
 
     headerDiv.append(span, header, spanTemp)
@@ -30,6 +30,6 @@ function Header() {
 
 let headcomp = document.querySelector('.header-container')
 
-headcomp.append(Header)
+headcomp.append(Header())
 
 
